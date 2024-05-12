@@ -1,0 +1,198 @@
+2024-05-11 23:44:40,476 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-11 23:45:12,838 - root - INFO - smart2004
+2024-05-11 23:45:12,839 - root - INFO - smart200481
+2024-05-11 23:45:18,341 - root - INFO - smart2004
+2024-05-11 23:45:18,342 - root - INFO - smart200481
+2024-05-11 23:45:21,149 - root - ERROR - Error to upload pic: Invalid URL 'adv_whole': No scheme supplied. Perhaps you meant https://adv_whole?
+2024-05-11 23:45:21,150 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 103, in proposal
+    context.bot.send_photo(chat.id, get_proposal())
+                                    ^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 50, in get_proposal
+    response = response.json()
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+2024-05-11 23:45:32,443 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 107, in form
+    context.bot.send_text(chat.id, get_form())
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExtBot' object has no attribute 'send_text'
+2024-05-11 23:45:43,457 - root - ERROR - Error to upload pic: Invalid URL 'adv_whole': No scheme supplied. Perhaps you meant https://adv_whole?
+2024-05-11 23:45:43,457 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 103, in proposal
+    context.bot.send_photo(chat.id, get_proposal())
+                                    ^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 50, in get_proposal
+    response = response.json()
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+2024-05-11 23:45:46,187 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 107, in form
+    context.bot.send_text(chat.id, get_form())
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExtBot' object has no attribute 'send_text'
+2024-05-11 23:46:17,636 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-11 23:46:17,636 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-11 23:46:27,036 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-11 23:57:06,943 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-11 23:57:50,140 - root - INFO - smart2004
+2024-05-11 23:57:50,140 - root - INFO - smart200481
+2024-05-11 23:57:54,586 - root - ERROR - Error to upload pic: Invalid URL 'adv_whole': No scheme supplied. Perhaps you meant https://adv_whole?
+2024-05-11 23:57:54,587 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 103, in proposal
+    context.bot.send_photo(chat.id, get_proposal())
+                                    ^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 50, in get_proposal
+    response = response.json()
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+2024-05-11 23:58:02,540 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 107, in form
+    context.bot.send_text(chat.id, get_form())
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExtBot' object has no attribute 'send_text'
+2024-05-11 23:58:04,459 - root - INFO - smart2004
+2024-05-11 23:58:04,460 - root - INFO - smart200481
+2024-05-11 23:58:36,519 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-11 23:58:36,520 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-12 00:02:44,971 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-12 00:02:53,349 - root - INFO - smart2004
+2024-05-12 00:02:53,349 - root - INFO - smart200481
+2024-05-12 00:02:56,700 - root - ERROR - Error to upload pic: Invalid URL 'adv_whole': No scheme supplied. Perhaps you meant https://adv_whole?
+2024-05-12 00:02:56,700 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 103, in proposal
+    context.bot.send_photo(chat.id, get_proposal())
+                                    ^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 50, in get_proposal
+    response = response.json()
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+2024-05-12 00:03:00,936 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 107, in form
+    context.bot.send_text(chat.id, get_form())
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ExtBot' object has no attribute 'send_text'
+2024-05-12 00:03:08,722 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-12 00:03:08,722 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-12 00:22:26,846 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-12 00:22:36,693 - root - INFO - smart2004
+2024-05-12 00:22:36,695 - root - INFO - smart200481
+2024-05-12 00:22:41,120 - root - INFO - 1340602238
+2024-05-12 00:23:06,378 - root - INFO - 1340602238
+2024-05-12 00:23:17,615 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-12 00:23:17,615 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-12 00:23:21,395 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-12 00:32:36,988 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-12 00:32:45,571 - root - INFO - smart2004
+2024-05-12 00:32:45,573 - root - INFO - smart200481
+2024-05-12 00:32:50,442 - root - INFO - smart200481
+2024-05-12 00:33:15,340 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-12 00:33:15,341 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-12 00:35:11,718 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-12 00:35:18,918 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-12 00:35:18,920 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-12 00:35:23,682 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-12 00:35:38,590 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-12 00:35:50,377 - root - INFO - smart2004
+2024-05-12 00:35:50,377 - root - INFO - smart200481
+2024-05-12 00:36:09,460 - root - ERROR - Error to upload pic: Invalid URL 'adv_whole.jpg': No scheme supplied. Perhaps you meant https://adv_whole.jpg?
+2024-05-12 00:36:09,460 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 103, in proposal
+    context.bot.send_photo(chat.id, get_proposal())
+                                    ^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 50, in get_proposal
+    response = response.json()
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+2024-05-12 00:36:27,992 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-12 00:36:27,993 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-12 00:36:29,661 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-12 00:39:22,991 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-12 00:39:31,920 - root - INFO - smart2004
+2024-05-12 00:39:31,920 - root - INFO - smart200481
+2024-05-12 00:39:35,576 - root - INFO - smart200481
+2024-05-12 00:39:38,573 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\NataRosotva_bot\NataRostova_bot.py", line 113, in proposal
+    context.bot.send_message(chat.id, image='{}'.format(pic))
+  File "C:\Dev\NataRosotva_bot\venv\Lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: Bot.send_message() got an unexpected keyword argument 'image'
+2024-05-12 00:47:13,964 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-12 00:47:13,964 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-12 00:47:28,121 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-12 00:47:36,424 - root - INFO - smart2004
+2024-05-12 00:47:36,424 - root - INFO - smart200481
+2024-05-12 00:47:39,216 - root - INFO - smart200481
+2024-05-12 00:47:49,797 - root - INFO - smart200481
+2024-05-12 00:48:29,263 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-12 00:48:29,264 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-12 13:12:31,926 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-12 13:12:45,098 - root - INFO - smart2004
+2024-05-12 13:12:45,098 - root - INFO - smart200481
+2024-05-12 13:12:52,539 - root - INFO - smart200481
+2024-05-12 13:12:54,281 - root - INFO - smart200481
+2024-05-12 13:13:05,102 - root - INFO - smart200481
+2024-05-12 13:13:26,659 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2024-05-12 13:13:26,659 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-12 13:13:34,983 - telegram.ext.updater - WARNING - Exiting immediately!
